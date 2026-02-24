@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Need for Speed Fan Page</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, Helvetica, sans-se;
+            background: linear-gradient(to right, black);
+            color: white;
+        }
+
+        header {
+            background: url('https://images.unsplash.com/photo-1502877338535-766e1452684a') no-repeat center center/cover;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 60px;
+            text-transform: uppercase;
+            letter-spacing: 5px;
+            background: rgba(0,0,0,0.6);
+            padding: 20px;
+            border: 3px solid red;
+        }
+
+        nav {
+            background: #111;
+            padding: 15px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 20px;
+            font-size: 18px;
+            transition: 0.3s;
+        }
+
+        nav a:hover {
+            color: red;
+        }
+
+        section {
+            padding: 60px 20px;
+            text-align: center;
+        }
+
+        .card-container {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 30px;
+        }
+
+        .card {
+            background: #222;
+            width: 250px;
+            padding: 20px;
+            border-radius: 10px;
+            transition: 0.4s;
+        }
+
+        .card:hover {
+            transform: scale(1.1);
+            box-shadow: 0 0 20px red;
+        }
+
+        footer {
+            background: black;
+            text-align: center;
+            padding: 20px;
+            border-top: 2px solid red;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Need For Speed</h1>
+    </header>
+
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">Cars</a>
+        <a href="#">Races</a>
+        <a href="#">Contact</a>
+    </nav>
+
+    <section>
+        <h2>Popular Games</h2>
+        <div class="card-container">
+            <div class="card">
+                <h3>Need for Speed Most Wanted</h3>
+                <p>Outrun rivals and become the most wanted street racer.</p>
+            </div>
+
+            <div class="card">
+                <h3>Need for Speed Heat</h3>
+                <p>Race by day, risk it all at night in Palm City.</p>
+            </div>
+
+            <div class="card">
+                <h3>Need for Speed Underground</h3>
+                <p>Customize cars and dominate the underground scene.</p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2026 Need for Speed Fan Page | Designed with HTML & CSS</p>
+    </footer>
+
+</body>
+</html>
