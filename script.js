@@ -36,10 +36,13 @@
 //         )
 
 // }
-let marks= 95;
-if (marks>=50){
-    console.log(pass)
-}
-else{
-    console.log(fail)
+// let marks= 95;
+// if (marks>=50){
+//     console.log(pass);
+// }
+// else{
+//     console.log(fail);
+// }
+for(leti=1;i<=5;i++){
+    console.log(i);
 }
