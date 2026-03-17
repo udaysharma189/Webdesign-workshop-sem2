@@ -57,3 +57,9 @@
 //     i++;
 // }
 // while(i<=5);
+// let numb =[ 1,2,3,4,5];
+// let sqaure=numb.map(numb => numb*numb);
+// console.log(numb)
+let numbers =[ 1,2,3,4,5];
+let result=numbers.filter(num => num>15);
+console.log(result);
