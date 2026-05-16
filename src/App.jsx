@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from './assets/vite.svg'
@@ -119,3 +120,23 @@ function App() {
 }
 
 export default App
+=======
+import './App.css'
+import Student from './Student'
+
+function App() {
+  return (
+    <div className="container">
+      <h1>Student Information</h1>
+
+      <div className="box">
+        <Student name="Rahul Sharma" course="Computer Science" marks="85" />
+        <Student name="Anita Verma" course="Information Technology" marks="92" />
+        <Student name="Rohan Gupta" course="Electronics" marks="78" />
+      </div>
+    </div>
+  )
+}
+
+export default App
+>>>>>>> c9c8e9d7e42c9797df256f97e3ce12901ebb8101

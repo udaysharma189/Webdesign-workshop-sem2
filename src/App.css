@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .counter {
   font-size: 16px;
   padding: 5px 10px;
@@ -182,3 +183,15 @@
     border-right-color: var(--border);
   }
 }
+=======
+.container {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.box {
+  border: 2px solid black;
+  display: inline-block;
+  padding: 20px;
+}
+>>>>>>> c9c8e9d7e42c9797df256f97e3ce12901ebb8101
